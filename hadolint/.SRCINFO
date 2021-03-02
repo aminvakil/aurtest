@@ -7,6 +7,7 @@ pkgbase = hadolint
 	license = GPL
 	makedepends = git
 	makedepends = stack
+	makedepends = ghc-static
 	conflicts = hadolint-bin
 	conflicts = hadolint-git
 	source = git+https://github.com/hadolint/hadolint.git#tag=v1.19.0
