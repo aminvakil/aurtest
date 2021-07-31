@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - pkg: cgreen
+          - pkg: rexpaint
     steps:
       - name: Check out the codebase.
         uses: actions/checkout@v2
