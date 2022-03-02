@@ -14,7 +14,7 @@ jobs:
     strategy:
       matrix:
         include:
-          - pkg: rexpaint
+          - pkg: gcc10
     steps:
       - name: Check out the codebase.
         uses: actions/checkout@v2
