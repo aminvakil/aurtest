@@ -1,0 +1,6 @@
+borg
+src
+pkg
+borg-git-*.tar.xz
+borg-git-*.src.tar.gz
+.AURINFO
