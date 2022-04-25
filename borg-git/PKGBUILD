@@ -14,7 +14,7 @@ depends=('acl' 'lz4' 'openssl' 'python-msgpack' 'python-setuptools' 'xz' 'zstd' 
 optdepends=('openssh: repositories on remote hosts'
             'python-llfuse: mounting backups as a FUSE file system')
 makedepends=('cython' 'python-sphinx' 'python-guzzle-sphinx-theme' 'git' 'python-pkgconfig' 'python-pip' 'python-wheel')
-checkdepends=('python-pytest' 'python-pytest-cov' 'python-pytest-benchmark' 'python-mock')
+checkdepends=('python-pytest' 'python-pytest-cov' 'python-pytest-benchmark' 'python-mock' 'python-argon2_cffi')
 provides=('borg' 'borgbackup')
 conflicts=('borg' 'borgbackup')
 source=("${_pkgname}::git+https://github.com/borgbackup/${_pkgname}.git")
