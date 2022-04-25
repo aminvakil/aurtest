@@ -10,6 +10,7 @@ pkgbase = borg-git
 	checkdepends = python-pytest-benchmark
 	checkdepends = python-mock
 	checkdepends = python-argon2_cffi
+	checkdepends = python-dateutil
 	makedepends = cython
 	makedepends = python-sphinx
 	makedepends = python-guzzle-sphinx-theme
