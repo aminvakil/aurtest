@@ -10,7 +10,7 @@ pkgdesc='Deduplicating backup program with compression and authenticated encrypt
 url='https://borgbackup.github.io/'
 license=('BSD')
 arch=('x86_64')
-depends=('acl' 'lz4' 'openssl' 'python-msgpack' 'python-setuptools' 'xz' 'zstd')
+depends=('acl' 'lz4' 'openssl' 'python-msgpack' 'python-setuptools' 'xz' 'zstd' 'xxhash')
 optdepends=('openssh: repositories on remote hosts'
             'python-llfuse: mounting backups as a FUSE file system')
 makedepends=('cython' 'python-sphinx' 'python-guzzle-sphinx-theme' 'git' 'python-pkgconfig')
